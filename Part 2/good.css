@@ -1,0 +1,94 @@
+/*
+This work is licensed under the Creative Commons Attribution-NoDerivatives 4.0
+International License. To view a copy of this license,
+visit http://creativecommons.org/licenses/by-nd/4.0/.
+*/
+
+html, body {
+    padding:0;
+    margin:0;
+    height:100%;
+}
+
+h1 {
+    text-align:center;
+    font-family:Arial;
+    color:#ffffff;
+    margin-top:0px;
+    margin-bottom:0px;
+    background-color:#3399ff;
+    line-height:250px;
+    height:250px;
+}
+
+span, h2 {
+    margin-left:1%;
+}
+
+img {
+    max-height:250px;
+    max-width:250px;
+}
+
+body>img:nth-of-type(odd) {
+    float:left;
+    padding:1%;
+}
+
+body>img:nth-of-type(even) {
+    float:right;
+    padding:1%;
+}
+
+a {
+    color:#ffffff;
+}
+
+a:hover {
+    color:#0099ff;
+}
+
+.top-header {
+    background-image:url("images/wood.jpg");
+    height:50px;
+}
+
+.main-menu {
+    list-style-type:none;
+    background-color:#505050;
+    margin:0;
+    padding:0;
+    text-align:center;
+    border:1px solid black;
+}
+
+.menu-item {
+    margin:-3;
+    padding-left:5%;
+    padding-right:5%;
+    display:inline;
+}
+
+.sidebar {
+    position:relative;
+    bottom:0;
+    background-color:#C0C0C0;
+    float:right;
+    margin-bottom:0;
+    padding:5px;
+    width:250px;
+    min-height:800px;
+}
+
+.point {
+    padding-top:3%;
+}
+
+.footer {
+    position:relative;
+    clear:both;
+    background-image:url("images/wood.jpg");
+    bottom:0;
+    height:30px;
+    width:100%;
+}

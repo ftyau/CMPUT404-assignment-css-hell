@@ -1,0 +1,86 @@
+/*
+This work is licensed under the Creative Commons Attribution-NoDerivatives 4.0
+International License. To view a copy of this license,
+visit http://creativecommons.org/licenses/by-nd/4.0/.
+*/
+
+html, body {
+    padding:0;
+    margin:0;
+    height:100%;
+    background-image: url("images/star_background.jpg");
+}
+
+h1 {
+    text-align:center;
+    font-family:Arial;
+    margin-top:0px;
+    margin-bottom:0px;
+    background:linear-gradient(90deg, yellow, red, blue);
+    line-height:250px;
+    height:250px;
+    color:yellow;
+}
+
+span, h2 {
+    margin-left:1%;
+    color:white;
+}
+
+img {
+    max-height:250px;
+    max-width:250px;
+}
+
+body>img:nth-of-type(odd) {
+    float:left;
+    padding:1%;
+}
+
+body>img:nth-of-type(even) {
+    float:right;
+    padding:1%;
+}
+
+a {
+    color:#000000;
+}
+
+.main-menu {
+    list-style-type:none;
+    background-color:orange;
+    line-height:50px;
+    margin-left:25%;
+    margin-right:25%;
+    padding:0;
+    height:50px;
+    width:800px;
+    text-align:center;
+    border:1px solid black;
+}
+
+.menu-item {
+    margin:-3;
+    padding-left:12.66%;
+    padding-right:12.66%;
+    padding-top:1.9%;
+    padding-bottom:1.9%;
+    border:1px solid black;
+    display:inline;
+}
+
+.sidebar {
+    position:relative;
+    bottom:0;
+    background-color:yellow;
+    float:right;
+    margin-bottom:0;
+    padding:5px;
+    width:250px;
+    min-height:800px;
+    color:blue;
+}
+
+.point {
+    padding-top:3%;
+}

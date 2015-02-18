@@ -21,4 +21,13 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-
+Modifications made for Part 1
+==============================
+- All text in paragraph tag changed to Times New Roman and given a margin on the left and right sides
+- Headers are centered
+- All text in preformatted text tag is italicized and centered
+- Background changed to a vertical repeating paper background
+- Images are changed to only allow a maximum of 500 pixels in width or height and are centered
+- Images are given a 1 pixel solid border
+- Images are given an opacity of 0.7. When a cursor hovers over the image, it goes to 1.0 opacity
+- Text/captions under images are centered
